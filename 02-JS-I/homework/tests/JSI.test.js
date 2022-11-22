@@ -119,7 +119,7 @@ describe('sonIguales(x, y)', function() {
   });
 });
 
-xdescribe('tienenMismaLongitud(str1, str2)', function() {
+describe('tienenMismaLongitud(str1, str2)', function() {
   it('Deberia devolver true si los strings tienen la misma longitud y sino false', function() {
     expect(tienenMismaLongitud('hi', 'there')).toBe(false);
     expect(tienenMismaLongitud('javascript', 'bumfuzzled')).toBe(true);
@@ -150,7 +150,7 @@ describe('obtenerResto(x, y)', function() {
   });
 });
 
-xdescribe('esPar(num)', function() {
+describe('esPar(num)', function() {
   it('Deberia devolver true si el numero es par sino false', function() {
     expect(esPar(6)).toBe(true);
     expect(esPar(7)).toBe(false);
@@ -158,7 +158,7 @@ xdescribe('esPar(num)', function() {
   });
 });
 
-xdescribe('esImpar(num)', function() {
+describe('esImpar(num)', function() {
   it('Deberia devolver true si el numero es impar sino false', function() {
     expect(esImpar(6)).toBe(false);
     expect(esImpar(7)).toBe(true);
@@ -216,7 +216,7 @@ describe('numeroRandom()', function() {
   });
 });
 
-xdescribe('esPositivo(numero)', function() {
+describe('esPositivo(numero)', function() {
   it('Debería devolver el string \Es positivo ó Es negativo\ según corresponda', function() {
     expect(esPositivo(0)).toBe(false);
     expect(esPositivo(23)).toBe('Es positivo');
@@ -278,7 +278,7 @@ describe('deEuroAdolar(euro)', function() {
   });
 });
 
-xdescribe('esVocal(letra)', function() {
+describe('esVocal(letra)', function() {
   it('Deberia devolver el string "Dato incorrecto", si el valor ingresado tiene más de una letra', function() {
     expect(esVocal("la")).toBe("Dato incorrecto");
     expect(esVocal("pero")).toBe("Dato incorrecto");
