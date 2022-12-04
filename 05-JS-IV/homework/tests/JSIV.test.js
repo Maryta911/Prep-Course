@@ -107,7 +107,7 @@ describe('tieneEmail(user)', function() {
   });
 });
 
-describe('tienePropiedad(object, property)', function() {
+xdescribe('tienePropiedad(object, property)', function() {
   it('should return true if the object has the property that is passed in', function() {
     const obj = {
       x: true,
